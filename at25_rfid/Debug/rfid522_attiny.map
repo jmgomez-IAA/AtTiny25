@@ -1,0 +1,970 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o (exit)
+/usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+                              ./MFRC522.o (__do_copy_data)
+/usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+                              ./main.o (__do_clear_bss)
+/usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+                              ./main.o (__do_global_ctors)
+/usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+                              ./main.o (__do_global_dtors)
+/usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+                              /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o) (__tablejump2__)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+                              ./wrapper_arduino.o (__ltsf2)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
+                              ./wrapper_arduino.o (__fixunssfsi)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
+                              ./wrapper_arduino.o (__floatunsisf)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
+                              /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o) (__fp_cmp)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
+                              /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o) (__fp_splitA)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
+                              /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o) (__fp_zero)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
+                              ./wrapper_arduino.o (__gtsf2)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
+                              ./wrapper_arduino.o (__mulsf3)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+                              /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o) (__mulsf3x)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
+                              /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o) (__fp_inf)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
+                              /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o) (__fp_nan)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
+                              /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o) (__fp_pscA)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
+                              /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o) (__fp_pscB)
+/usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
+                              /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o) (__fp_round)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+ .group         0x0000000000000000        0x8 ./MFRC522.o
+ .text          0x0000000000000000        0x0 ./MFRC522.o
+ .data          0x0000000000000000        0x0 ./MFRC522.o
+ .bss           0x0000000000000000        0x0 ./MFRC522.o
+ .progmem.data._ZL30MFRC522_firmware_referenceV0_0
+                0x0000000000000000       0x40 ./MFRC522.o
+ .progmem.data._ZL30MFRC522_firmware_referenceV1_0
+                0x0000000000000000       0x40 ./MFRC522.o
+ .progmem.data._ZL30MFRC522_firmware_referenceV2_0
+                0x0000000000000000       0x40 ./MFRC522.o
+ .progmem.data._ZL26FM17522_firmware_reference
+                0x0000000000000000       0x40 ./MFRC522.o
+ .text._ZN7MFRC5228PCD_InitEv
+                0x0000000000000000       0xea ./MFRC522.o
+ .text._ZN7MFRC5228PCD_InitEhh
+                0x0000000000000000       0x3a ./MFRC522.o
+ .text._ZN7MFRC5229PCD_ResetEv
+                0x0000000000000000       0x46 ./MFRC522.o
+ .text._ZN7MFRC52213PCD_AntennaOnEv
+                0x0000000000000000       0x44 ./MFRC522.o
+ .text._ZN7MFRC52214PCD_AntennaOffEv
+                0x0000000000000000       0x24 ./MFRC522.o
+ .text._ZN7MFRC52218PCD_GetAntennaGainEv
+                0x0000000000000000       0x22 ./MFRC522.o
+ .text._ZN7MFRC52218PCD_SetAntennaGainEh
+                0x0000000000000000       0x4e ./MFRC522.o
+ .text._ZN7MFRC52219PCD_PerformSelfTestEv
+                0x0000000000000000      0x1ea ./MFRC522.o
+ .text._ZN7MFRC52212PICC_WakeupAEPhS0_
+                0x0000000000000000       0x32 ./MFRC522.o
+ .text._ZN7MFRC52210PICC_HaltAEv
+                0x0000000000000000       0x92 ./MFRC522.o
+ .text._ZN7MFRC52216PCD_AuthenticateEhhPNS_10MIFARE_KeyEPNS_3UidE
+                0x0000000000000000      0x10a ./MFRC522.o
+ .text._ZN7MFRC52215PCD_StopCrypto1Ev
+                0x0000000000000000       0x24 ./MFRC522.o
+ .text._ZN7MFRC52211MIFARE_ReadEhPhS0_
+                0x0000000000000000       0xb0 ./MFRC522.o
+ .text._ZN7MFRC52212MIFARE_WriteEhPhh
+                0x0000000000000000       0x78 ./MFRC522.o
+ .text._ZN7MFRC52223MIFARE_Ultralight_WriteEhPhh
+                0x0000000000000000       0x6e ./MFRC522.o
+ .text._ZN7MFRC52216MIFARE_DecrementEhl
+                0x0000000000000000       0x44 ./MFRC522.o
+ .text._ZN7MFRC52216MIFARE_IncrementEhl
+                0x0000000000000000       0x44 ./MFRC522.o
+ .text._ZN7MFRC52214MIFARE_RestoreEh
+                0x0000000000000000       0x34 ./MFRC522.o
+ .text._ZN7MFRC52220MIFARE_TwoStepHelperEhhl
+                0x0000000000000000       0x70 ./MFRC522.o
+ .text._ZN7MFRC52215MIFARE_TransferEh
+                0x0000000000000000       0x42 ./MFRC522.o
+ .text._ZN7MFRC52215MIFARE_GetValueEhPl
+                0x0000000000000000       0xa6 ./MFRC522.o
+ .text._ZN7MFRC52215MIFARE_SetValueEhl
+                0x0000000000000000       0xae ./MFRC522.o
+ .text._ZN7MFRC52216PCD_NTAG216_AUTHEPhS0_
+                0x0000000000000000      0x102 ./MFRC522.o
+ .text._ZN7MFRC52221PCD_MIFARE_TransceiveEPhhb
+                0x0000000000000000      0x106 ./MFRC522.o
+ .text._ZN7MFRC52212PICC_GetTypeEh
+                0x0000000000000000       0xee ./MFRC522.o
+ .text._ZN7MFRC52217PICC_DumpToSerialEPNS_3UidE
+                0x0000000000000000       0xc6 ./MFRC522.o
+ .text._ZN7MFRC52220MIFARE_SetAccessBitsEPhhhhh
+                0x0000000000000000      0x154 ./MFRC522.o
+ .avr.prop      0x0000000000000000       0x28 ./MFRC522.o
+ .text          0x0000000000000000        0x0 ./SPIClass.o
+ .data          0x0000000000000000        0x0 ./SPIClass.o
+ .bss           0x0000000000000000        0x0 ./SPIClass.o
+ .text._ZN8SPIClassC2ER11SPISettings
+                0x0000000000000000       0x2a ./SPIClass.o
+ .group         0x0000000000000000        0x8 ./main.o
+ .group         0x0000000000000000        0x8 ./main.o
+ .group         0x0000000000000000        0x8 ./main.o
+ .text          0x0000000000000000        0x0 ./main.o
+ .data          0x0000000000000000        0x0 ./main.o
+ .bss           0x0000000000000000        0x0 ./main.o
+ .progmem.data._ZL30MFRC522_firmware_referenceV0_0
+                0x0000000000000000       0x40 ./main.o
+ .progmem.data._ZL30MFRC522_firmware_referenceV1_0
+                0x0000000000000000       0x40 ./main.o
+ .progmem.data._ZL30MFRC522_firmware_referenceV2_0
+                0x0000000000000000       0x40 ./main.o
+ .progmem.data._ZL26FM17522_firmware_reference
+                0x0000000000000000       0x40 ./main.o
+ .rodata._ZL7RST_PIN
+                0x0000000000000000        0x1 ./main.o
+ .rodata._ZL6SS_PIN
+                0x0000000000000000        0x1 ./main.o
+ .text          0x0000000000000000        0x0 ./wrapper_arduino.o
+ .data          0x0000000000000000        0x0 ./wrapper_arduino.o
+ .bss           0x0000000000000000        0x0 ./wrapper_arduino.o
+ .text._Z7pinModehh
+                0x0000000000000000       0x74 ./wrapper_arduino.o
+ .text._Z11digitalReadh
+                0x0000000000000000       0x1c ./wrapper_arduino.o
+ .text._Z5delayh
+                0x0000000000000000       0xfc ./wrapper_arduino.o
+ .text._Z6memcpyPhS_h
+                0x0000000000000000       0x62 ./wrapper_arduino.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x58 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x7a /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x48 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x44 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x8 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x4 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0xd2 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xc /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0x6 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
+ .text.avr-libc.fplib
+                0x0000000000000000        0xe /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
+ .text.avr-libc.fplib
+                0x0000000000000000       0x22 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000002000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+LOAD ./MFRC522.o
+LOAD ./SPIClass.o
+LOAD ./main.o
+LOAD ./wrapper_arduino.o
+LOAD /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a
+LOAD /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a
+LOAD /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a
+LOAD /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libc.a
+LOAD /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libattiny25.a
+END GROUP
+                0x0000000000002000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x2000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x10a4
+ *(.vectors)
+ .vectors       0x0000000000000000       0x1e /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x000000000000001e                . = ALIGN (0x2)
+                0x000000000000001e                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000001e        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000001e                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x000000000000001e                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000001e                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000000000000001e        0x2 ./main.o
+                0x0000000000000020                __ctors_end = .
+                0x0000000000000020                __dtors_start = .
+ *(.dtors)
+ .dtors         0x0000000000000020        0x2 ./main.o
+                0x0000000000000022                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000022        0x0 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+                0x0000000000000022                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000022        0x8 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000000000002a       0x16 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+                0x000000000000002a                __do_copy_data
+ .init4         0x0000000000000040       0x10 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+                0x0000000000000040                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x0000000000000050       0x14 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+                0x0000000000000050                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000064        0x4 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+ *(.init9)
+ *(.text)
+ .text          0x0000000000000068        0x2 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+                0x0000000000000068                __vector_1
+                0x0000000000000068                __vector_12
+                0x0000000000000068                __bad_interrupt
+                0x0000000000000068                __vector_6
+                0x0000000000000068                __vector_3
+                0x0000000000000068                __vector_11
+                0x0000000000000068                __vector_13
+                0x0000000000000068                __vector_7
+                0x0000000000000068                __vector_5
+                0x0000000000000068                __vector_4
+                0x0000000000000068                __vector_9
+                0x0000000000000068                __vector_2
+                0x0000000000000068                __vector_8
+                0x0000000000000068                __vector_14
+                0x0000000000000068                __vector_10
+                0x000000000000006a                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEh
+                0x000000000000006a       0x76 ./MFRC522.o
+                0x000000000000006a                _ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEh
+ .text._ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEhPh
+                0x00000000000000e0       0xa8 ./MFRC522.o
+                0x00000000000000e0                _ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEhPh
+ .text._ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterE
+                0x0000000000000188       0x7c ./MFRC522.o
+                0x0000000000000188                _ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterE
+ .text._ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterEhPhh
+                0x0000000000000204      0x140 ./MFRC522.o
+                0x0000000000000204                _ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterEhPhh
+ .text._ZN7MFRC52222PCD_SetRegisterBitMaskENS_12PCD_RegisterEh
+                0x0000000000000344       0x3c ./MFRC522.o
+                0x0000000000000344                _ZN7MFRC52222PCD_SetRegisterBitMaskENS_12PCD_RegisterEh
+ .text._ZN7MFRC52224PCD_ClearRegisterBitMaskENS_12PCD_RegisterEh
+                0x0000000000000380       0x40 ./MFRC522.o
+                0x0000000000000380                _ZN7MFRC52224PCD_ClearRegisterBitMaskENS_12PCD_RegisterEh
+ .text._ZN7MFRC52216PCD_CalculateCRCEPhhS0_
+                0x00000000000003c0       0xce ./MFRC522.o
+                0x00000000000003c0                _ZN7MFRC52216PCD_CalculateCRCEPhhS0_
+ .text._ZN7MFRC52218PCD_TransceiveDataEPhhS0_S0_S0_hb
+                0x000000000000048e       0x82 ./MFRC522.o
+                0x000000000000048e                _ZN7MFRC52218PCD_TransceiveDataEPhhS0_S0_S0_hb
+ .text._ZN7MFRC52223PCD_CommunicateWithPICCEhhPhhS0_S0_S0_hb
+                0x0000000000000510      0x26e ./MFRC522.o
+                0x0000000000000510                _ZN7MFRC52223PCD_CommunicateWithPICCEhhPhhS0_S0_S0_hb
+ .text._ZN7MFRC52213PICC_RequestAEPhS0_
+                0x000000000000077e       0x32 ./MFRC522.o
+                0x000000000000077e                _ZN7MFRC52213PICC_RequestAEPhS0_
+ .text._ZN7MFRC52217PICC_REQA_or_WUPAEhPhS0_
+                0x00000000000007b0       0xac ./MFRC522.o
+                0x00000000000007b0                _ZN7MFRC52217PICC_REQA_or_WUPAEhPhS0_
+ .text._ZN7MFRC52211PICC_SelectEPNS_3UidEh
+                0x000000000000085c      0x4c4 ./MFRC522.o
+                0x000000000000085c                _ZN7MFRC52211PICC_SelectEPNS_3UidEh
+ .text._ZN7MFRC52221PICC_IsNewCardPresentEv
+                0x0000000000000d20       0x64 ./MFRC522.o
+                0x0000000000000d20                _ZN7MFRC52221PICC_IsNewCardPresentEv
+ .text._ZN7MFRC52219PICC_ReadCardSerialEv
+                0x0000000000000d84       0x4a ./MFRC522.o
+                0x0000000000000d84                _ZN7MFRC52219PICC_ReadCardSerialEv
+ .text._ZN8SPIClassC2Ev
+                0x0000000000000dce       0x24 ./SPIClass.o
+                0x0000000000000dce                _ZN8SPIClassC2Ev
+                0x0000000000000dce                _ZN8SPIClassC1Ev
+ .text._ZN8SPIClassD2Ev
+                0x0000000000000df2       0x22 ./SPIClass.o
+                0x0000000000000df2                _ZN8SPIClassD1Ev
+                0x0000000000000df2                _ZN8SPIClassD2Ev
+ .text._ZN8SPIClass16beginTransactionE11SPISettings
+                0x0000000000000e14       0x3c ./SPIClass.o
+                0x0000000000000e14                _ZN8SPIClass16beginTransactionE11SPISettings
+ .text._ZN8SPIClass8transferEh
+                0x0000000000000e50       0x2a ./SPIClass.o
+                0x0000000000000e50                _ZN8SPIClass8transferEh
+ .text._ZN8SPIClass14endTransactionEv
+                0x0000000000000e7a       0x22 ./SPIClass.o
+                0x0000000000000e7a                _ZN8SPIClass14endTransactionEv
+ .text._ZN11SPISettingsC2Ehhh
+                0x0000000000000e9c       0x2c ./main.o
+                0x0000000000000e9c                _ZN11SPISettingsC2Ehhh
+                0x0000000000000e9c                _ZN11SPISettingsC1Ehhh
+ .text._ZN8SPIClass11setDataModeEh
+                0x0000000000000ec8       0x28 ./main.o
+                0x0000000000000ec8                _ZN8SPIClass11setDataModeEh
+ .text._ZN7MFRC522C2EhhP8SPIClass11SPISettings
+                0x0000000000000ef0       0x66 ./main.o
+                0x0000000000000ef0                _ZN7MFRC522C2EhhP8SPIClass11SPISettings
+                0x0000000000000ef0                _ZN7MFRC522C1EhhP8SPIClass11SPISettings
+ .text.main     0x0000000000000f56       0x1a ./main.o
+                0x0000000000000f56                main
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x0000000000000f70       0x6c ./main.o
+ .text._GLOBAL__sub_I_testObject
+                0x0000000000000fdc       0x18 ./main.o
+ .text._GLOBAL__sub_D_testObject
+                0x0000000000000ff4       0x18 ./main.o
+ .text._Z12digitalWritehh
+                0x000000000000100c       0x74 ./wrapper_arduino.o
+                0x000000000000100c                _Z12digitalWritehh
+ .text.libgcc   0x0000000000001080        0xc /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+                0x0000000000001080                __tablejump2__
+                0x000000000000108c                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000000000000108c        0x0 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+                0x000000000000108c                exit
+                0x000000000000108c                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ .fini6         0x000000000000108c       0x14 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+                0x000000000000108c                __do_global_dtors
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000010a0        0x4 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000010a4                _etext = .
+
+.data           0x0000000000800060        0xa load address 0x00000000000010a4
+                0x0000000000800060                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZTV7MFRC522
+                0x0000000000800060        0xa ./MFRC522.o
+                0x0000000000800060                _ZTV7MFRC522
+ *(.gnu.linkonce.d*)
+                0x000000000080006a                . = ALIGN (0x2)
+                0x000000000080006a                _edata = .
+                0x000000000080006a                PROVIDE (__data_end, .)
+
+.bss            0x000000000080006a       0x17
+                0x000000000080006a                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.testObject
+                0x000000000080006a       0x13 ./main.o
+                0x000000000080006a                testObject
+ .bss.SPI       0x000000000080007d        0x4 ./main.o
+                0x000000000080007d                SPI
+ *(COMMON)
+                0x0000000000800081                PROVIDE (__bss_end, .)
+                0x00000000000010a4                __data_load_start = LOADADDR (.data)
+                0x00000000000010ae                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800081        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800081                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x0000000000000000     0x327c
+ *(.stab)
+ .stab          0x0000000000000000     0x1ad0 ./MFRC522.o
+                                       0x3138 (size before relaxing)
+ .stab          0x0000000000001ad0      0x648 ./SPIClass.o
+                                        0x69c (size before relaxing)
+ .stab          0x0000000000002118      0x7f8 ./main.o
+                                        0x804 (size before relaxing)
+ .stab          0x0000000000002910      0x528 ./wrapper_arduino.o
+                                        0x774 (size before relaxing)
+ .stab          0x0000000000002e38       0x6c /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+                                         0x78 (size before relaxing)
+ .stab          0x0000000000002ea4       0xd8 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+                                         0xe4 (size before relaxing)
+ .stab          0x0000000000002f7c       0xb4 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+                                         0xc0 (size before relaxing)
+ .stab          0x0000000000003030       0xd8 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+                                         0xe4 (size before relaxing)
+ .stab          0x0000000000003108       0xd8 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+                                         0xe4 (size before relaxing)
+ .stab          0x00000000000031e0       0x9c /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+                                         0xa8 (size before relaxing)
+
+.stabstr        0x0000000000000000     0x2e56
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0x2e56 ./MFRC522.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x21
+ *(.comment)
+ .comment       0x0000000000000000       0x21 ./MFRC522.o
+                                         0x22 (size before relaxing)
+ .comment       0x0000000000000021       0x22 ./SPIClass.o
+ .comment       0x0000000000000021       0x22 ./main.o
+ .comment       0x0000000000000021       0x22 ./wrapper_arduino.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x3c /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x420
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x420 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+
+.debug_abbrev   0x0000000000000000      0x3e8
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x3e8 /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+
+.debug_line     0x0000000000000000       0x1d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1d /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x16a
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x16a /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(rfid522_attiny.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+SPI                                               ./main.o
+_Z11digitalReadh                                  ./wrapper_arduino.o
+                                                  ./MFRC522.o
+_Z12digitalWritehh                                ./wrapper_arduino.o
+                                                  ./MFRC522.o
+_Z5delayh                                         ./wrapper_arduino.o
+                                                  ./MFRC522.o
+_Z6memcpyPhS_h                                    ./wrapper_arduino.o
+                                                  ./MFRC522.o
+_Z7pinModehh                                      ./wrapper_arduino.o
+                                                  ./MFRC522.o
+_ZN11SPISettingsC1Ehhh                            ./main.o
+_ZN11SPISettingsC2Ehhh                            ./main.o
+_ZN7MFRC52210PICC_HaltAEv                         ./MFRC522.o
+_ZN7MFRC52211MIFARE_ReadEhPhS0_                   ./MFRC522.o
+_ZN7MFRC52211PICC_SelectEPNS_3UidEh               ./MFRC522.o
+_ZN7MFRC52212MIFARE_WriteEhPhh                    ./MFRC522.o
+_ZN7MFRC52212PICC_GetTypeEh                       ./MFRC522.o
+_ZN7MFRC52212PICC_WakeupAEPhS0_                   ./MFRC522.o
+_ZN7MFRC52213PCD_AntennaOnEv                      ./MFRC522.o
+_ZN7MFRC52213PICC_RequestAEPhS0_                  ./MFRC522.o
+_ZN7MFRC52214MIFARE_RestoreEh                     ./MFRC522.o
+_ZN7MFRC52214PCD_AntennaOffEv                     ./MFRC522.o
+_ZN7MFRC52215MIFARE_GetValueEhPl                  ./MFRC522.o
+_ZN7MFRC52215MIFARE_SetValueEhl                   ./MFRC522.o
+_ZN7MFRC52215MIFARE_TransferEh                    ./MFRC522.o
+_ZN7MFRC52215PCD_StopCrypto1Ev                    ./MFRC522.o
+_ZN7MFRC52216MIFARE_DecrementEhl                  ./MFRC522.o
+_ZN7MFRC52216MIFARE_IncrementEhl                  ./MFRC522.o
+_ZN7MFRC52216PCD_AuthenticateEhhPNS_10MIFARE_KeyEPNS_3UidE ./MFRC522.o
+_ZN7MFRC52216PCD_CalculateCRCEPhhS0_              ./MFRC522.o
+_ZN7MFRC52216PCD_NTAG216_AUTHEPhS0_               ./MFRC522.o
+_ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterE  ./MFRC522.o
+_ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterEhPhh ./MFRC522.o
+_ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEh ./MFRC522.o
+_ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEhPh ./MFRC522.o
+_ZN7MFRC52217PICC_DumpToSerialEPNS_3UidE          ./MFRC522.o
+_ZN7MFRC52217PICC_REQA_or_WUPAEhPhS0_             ./MFRC522.o
+_ZN7MFRC52218PCD_GetAntennaGainEv                 ./MFRC522.o
+_ZN7MFRC52218PCD_SetAntennaGainEh                 ./MFRC522.o
+_ZN7MFRC52218PCD_TransceiveDataEPhhS0_S0_S0_hb    ./MFRC522.o
+_ZN7MFRC52219PCD_PerformSelfTestEv                ./MFRC522.o
+_ZN7MFRC52219PICC_ReadCardSerialEv                ./MFRC522.o
+_ZN7MFRC52220MIFARE_SetAccessBitsEPhhhhh          ./MFRC522.o
+_ZN7MFRC52220MIFARE_TwoStepHelperEhhl             ./MFRC522.o
+_ZN7MFRC52221PCD_MIFARE_TransceiveEPhhb           ./MFRC522.o
+_ZN7MFRC52221PICC_IsNewCardPresentEv              ./MFRC522.o
+_ZN7MFRC52222PCD_SetRegisterBitMaskENS_12PCD_RegisterEh ./MFRC522.o
+_ZN7MFRC52223MIFARE_Ultralight_WriteEhPhh         ./MFRC522.o
+_ZN7MFRC52223PCD_CommunicateWithPICCEhhPhhS0_S0_S0_hb ./MFRC522.o
+_ZN7MFRC52224PCD_ClearRegisterBitMaskENS_12PCD_RegisterEh ./MFRC522.o
+_ZN7MFRC52224PICC_DumpDetailsToSerialEPNS_3UidE   ./MFRC522.o
+_ZN7MFRC52230PICC_DumpMifareClassicToSerialEPNS_3UidENS_9PICC_TypeEPNS_10MIFARE_KeyE ./MFRC522.o
+_ZN7MFRC52233PICC_DumpMifareUltralightToSerialEv  ./MFRC522.o
+_ZN7MFRC5228PCD_InitEhh                           ./MFRC522.o
+_ZN7MFRC5228PCD_InitEv                            ./MFRC522.o
+_ZN7MFRC5229PCD_ResetEv                           ./MFRC522.o
+_ZN7MFRC522C1EhhP8SPIClass11SPISettings           ./main.o
+_ZN7MFRC522C2EhhP8SPIClass11SPISettings           ./main.o
+_ZN8SPIClass11setDataModeEh                       ./main.o
+_ZN8SPIClass14endTransactionEv                    ./SPIClass.o
+                                                  ./MFRC522.o
+_ZN8SPIClass16beginTransactionE11SPISettings      ./SPIClass.o
+                                                  ./MFRC522.o
+_ZN8SPIClass8transferEh                           ./SPIClass.o
+                                                  ./MFRC522.o
+_ZN8SPIClassC1ER11SPISettings                     ./SPIClass.o
+_ZN8SPIClassC1Ev                                  ./SPIClass.o
+                                                  ./main.o
+_ZN8SPIClassC2ER11SPISettings                     ./SPIClass.o
+_ZN8SPIClassC2Ev                                  ./SPIClass.o
+_ZN8SPIClassD1Ev                                  ./SPIClass.o
+                                                  ./main.o
+_ZN8SPIClassD2Ev                                  ./SPIClass.o
+_ZTV7MFRC522                                      ./MFRC522.o
+                                                  ./main.o
+__FUSE_REGION_LENGTH__                            /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__bad_interrupt                                   /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__bss_end                                         /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+__cmpsf2                                          /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+__ctors_end                                       /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+__ctors_start                                     /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+__data_end                                        /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+                                                  ./main.o
+__do_copy_data                                    /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_copy_data.o)
+                                                  ./main.o
+                                                  ./MFRC522.o
+__do_global_ctors                                 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+                                                  ./main.o
+__do_global_dtors                                 /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+                                                  ./main.o
+__dtors_end                                       /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+__dtors_start                                     /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+__eqsf2                                           /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+__fixunssfsi                                      /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
+                                                  ./wrapper_arduino.o
+__floatsisf                                       /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
+__floatunsisf                                     /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
+                                                  ./wrapper_arduino.o
+__fp_cmp                                          /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+__fp_inf                                          /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+__fp_nan                                          /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+__fp_pscA                                         /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+__fp_pscB                                         /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+__fp_round                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
+__fp_split3                                       /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+__fp_splitA                                       /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
+__fp_szero                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+__fp_zero                                         /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
+__gesf2                                           /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
+__gtsf2                                           /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
+                                                  ./wrapper_arduino.o
+__heap_end                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__init                                            /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__lesf2                                           /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+__ltsf2                                           /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+                                                  ./wrapper_arduino.o
+__mulsf3                                          /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
+                                                  ./wrapper_arduino.o
+__mulsf3_pse                                      /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+__mulsf3x                                         /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
+__nesf2                                           /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
+__stack                                           /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__tablejump2__                                    /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+                                                  /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_dtors.o)
+                                                  /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_ctors.o)
+__vector_1                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_10                                       /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_11                                       /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_12                                       /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_13                                       /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_14                                       /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_2                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_3                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_4                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_5                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_6                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_7                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_8                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_9                                        /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vector_default                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+__vectors                                         /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+_exit                                             /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+exit                                              /usr/lib/gcc/avr/6.2.0/avr25/tiny-stack/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+main                                              ./main.o
+                                                  /usr/lib/gcc/avr/6.2.0/../../../../avr/lib/avr25/tiny-stack/crtattiny25.o
+testObject                                        ./main.o
