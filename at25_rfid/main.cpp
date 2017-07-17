@@ -12,13 +12,14 @@
 
 #include <util/delay.h>
 
+
+
 #include "wrapper_arduino.h"
 #include "SPIClass.h"
-//#include "MFRC522.h"
+#include "MFRC522.h"
 
-constexpr uint8_t RST_PIN = 9;     // Configurable, see typical pin layout above
-constexpr uint8_t SS_PIN = 10;     // Configurable, see typical pin layout above
-
+constexpr uint8_t RST_PIN = 4;     // Configurable, see typical pin layout above
+constexpr uint8_t SS_PIN = 3;     // Configurable, see typical pin layout above
 
 SPIClass SPI;
 uint8_t spiOn;
@@ -53,6 +54,8 @@ void TIMER0_COMPA_vect (void){
 };
 
 
+MFRC522 mfrc522(SS_PIN, RST_PIN, &SPI, SPISettings(8, SPISettings::MSBFIRST, SPISettings::SPI_MODE0));
+
 int main(){
 
 	//Prepare and configure interrupts and outputs.
@@ -73,12 +76,17 @@ int main(){
 	sei();
 
 
+
+
 	//void setSPIConfig();
 	SPI.setDataMode(SPISettings::SPI_MODE0);
 
-	PORTB |= _BV(PINB4);	//Take out from sleep mode.
+	mfrc522.PCD_Init();
+
+	//PORTB |= _BV(PINB4);	//Take out from sleep mode.
 	_delay_ms(50);
-	uint8_t  reg_index = 0, base_addr =  0x80;
+
+	bool result = mfrc522.PCD_PerformSelfTest();
 
 	while(1){
 		//if (spiOn == 1){

@@ -28,4 +28,6 @@ void delay(uint8_t ms);
 
 void memcpy(uint8_t *output, uint8_t *input, uint8_t size);
 
+
+
 #endif /* WRAPPER_ARDUINO_H_ */
