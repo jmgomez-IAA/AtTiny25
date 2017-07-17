@@ -28,7 +28,10 @@ uint8_t digitalRead(uint8_t pin){
 }
 
 void delay(uint8_t ms){
-	_delay_ms(ms);
+	while(ms > 0){
+		_delay_ms(1);
+		ms --;
+	}
 }
 
 void memcpy(uint8_t *output, uint8_t *input, uint8_t size){

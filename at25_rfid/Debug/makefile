@@ -53,8 +53,17 @@ endif
 LSS += \
 at25_rfid.lss \
 
+FLASH_IMAGE += \
+at25_rfid.hex \
+
+EEPROM_IMAGE += \
+at25_rfid.eep \
+
 SIZEDUMMY += \
 sizedummy \
+
+AVRDUDEDUMMY += \
+avrdudedummy \
 
 
 # All Target
@@ -74,18 +83,36 @@ at25_rfid.lss: at25_rfid.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
+at25_rfid.hex: at25_rfid.elf
+	@echo 'Create Flash image (ihex format)'
+	-avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex at25_rfid.elf  "at25_rfid.hex"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+at25_rfid.eep: at25_rfid.elf
+	@echo 'Create eeprom image (ihex format)'
+	-avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ihex at25_rfid.elf  "at25_rfid.eep"
+	@echo 'Finished building: $@'
+	@echo ' '
+
 sizedummy: at25_rfid.elf
 	@echo 'Invoking: Print Size'
 	-avr-size --format=avr --mcu=attiny25 at25_rfid.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
+avrdudedummy: at25_rfid.elf
+	@echo 'Invoking: AVRDude'
+	/usr/bin/avrdude -pt25 -carduino -P/dev/ttyACM0 -b19200 -Uflash:w:at25_rfid.hex:a
+	@echo 'Finished building: $@'
+	@echo ' '
+
 # Other Targets
 clean:
-	-$(RM) $(C_UPPER_DEPS)$(S_DEPS)$(PDE_DEPS)$(LSS)$(C_DEPS)$(CC_DEPS)$(ELFS)$(C++_DEPS)$(OBJS)$(CXX_DEPS)$(ASM_DEPS)$(INO_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(CPP_DEPS) at25_rfid.elf
+	-$(RM) $(C_UPPER_DEPS)$(AVRDUDEDUMMY)$(S_DEPS)$(PDE_DEPS)$(LSS)$(C_DEPS)$(FLASH_IMAGE)$(CC_DEPS)$(ELFS)$(C++_DEPS)$(OBJS)$(CXX_DEPS)$(ASM_DEPS)$(EEPROM_IMAGE)$(INO_DEPS)$(SIZEDUMMY)$(S_UPPER_DEPS)$(CPP_DEPS) at25_rfid.elf
 	-@echo ' '
 
-secondary-outputs: $(LSS) $(SIZEDUMMY)
+secondary-outputs: $(LSS) $(FLASH_IMAGE) $(EEPROM_IMAGE) $(SIZEDUMMY) $(AVRDUDEDUMMY)
 
 .PHONY: all clean dependents
 .SECONDARY:

@@ -2,148 +2,50 @@ Archive member included because of file (symbol)
 
 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
                               /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o (exit)
-/usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
-                              ./MFRC522.o (__do_copy_data)
 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
-                              ./main.o (__do_clear_bss)
+                              ./SPIClass.o (__do_clear_bss)
 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o)
                               ./main.o (__do_global_ctors)
 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_dtors.o)
                               ./main.o (__do_global_dtors)
 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_tablejump2.o)
                               /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o) (__tablejump2__)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
-                              ./wrapper_arduino.o (__ltsf2)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
-                              ./wrapper_arduino.o (__fixunssfsi)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
-                              ./wrapper_arduino.o (__floatunsisf)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
-                              /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o) (__fp_cmp)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
-                              /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o) (__fp_splitA)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
-                              /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o) (__fp_zero)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
-                              ./wrapper_arduino.o (__gtsf2)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
-                              ./wrapper_arduino.o (__mulsf3)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
-                              /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o) (__mulsf3x)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
-                              /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o) (__fp_inf)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
-                              /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o) (__fp_nan)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
-                              /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o) (__fp_pscA)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
-                              /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o) (__fp_pscB)
-/usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
-                              /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o) (__fp_round)
 
 Discarded input sections
 
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
- .group         0x0000000000000000        0x8 ./MFRC522.o
- .text          0x0000000000000000        0x0 ./MFRC522.o
- .bss           0x0000000000000000        0x0 ./MFRC522.o
- .text._ZN7MFRC5228PCD_InitEv
-                0x0000000000000000       0xe8 ./MFRC522.o
- .text._ZN7MFRC5228PCD_InitEhh
-                0x0000000000000000       0x38 ./MFRC522.o
- .text._ZN7MFRC5229PCD_ResetEv
-                0x0000000000000000       0x44 ./MFRC522.o
- .text._ZN7MFRC52213PCD_AntennaOnEv
-                0x0000000000000000       0x44 ./MFRC522.o
- .text._ZN7MFRC52214PCD_AntennaOffEv
-                0x0000000000000000       0x22 ./MFRC522.o
- .text._ZN7MFRC52218PCD_GetAntennaGainEv
-                0x0000000000000000       0x22 ./MFRC522.o
- .text._ZN7MFRC52218PCD_SetAntennaGainEh
-                0x0000000000000000       0x4c ./MFRC522.o
- .text._ZN7MFRC52219PCD_PerformSelfTestEv
-                0x0000000000000000      0x1d8 ./MFRC522.o
- .text._ZN7MFRC52212PICC_WakeupAEPhS0_
-                0x0000000000000000       0x32 ./MFRC522.o
- .text._ZN7MFRC52210PICC_HaltAEv
-                0x0000000000000000       0x92 ./MFRC522.o
- .text._ZN7MFRC52216PCD_AuthenticateEhhPNS_10MIFARE_KeyEPNS_3UidE
-                0x0000000000000000      0x104 ./MFRC522.o
- .text._ZN7MFRC52215PCD_StopCrypto1Ev
-                0x0000000000000000       0x22 ./MFRC522.o
- .text._ZN7MFRC52211MIFARE_ReadEhPhS0_
-                0x0000000000000000       0xac ./MFRC522.o
- .text._ZN7MFRC52212MIFARE_WriteEhPhh
-                0x0000000000000000       0x74 ./MFRC522.o
- .text._ZN7MFRC52223MIFARE_Ultralight_WriteEhPhh
-                0x0000000000000000       0x6a ./MFRC522.o
- .text._ZN7MFRC52216MIFARE_DecrementEhl
-                0x0000000000000000       0x44 ./MFRC522.o
- .text._ZN7MFRC52216MIFARE_IncrementEhl
-                0x0000000000000000       0x44 ./MFRC522.o
- .text._ZN7MFRC52214MIFARE_RestoreEh
-                0x0000000000000000       0x34 ./MFRC522.o
- .text._ZN7MFRC52220MIFARE_TwoStepHelperEhhl
-                0x0000000000000000       0x70 ./MFRC522.o
- .text._ZN7MFRC52215MIFARE_TransferEh
-                0x0000000000000000       0x42 ./MFRC522.o
- .text._ZN7MFRC52215MIFARE_GetValueEhPl
-                0x0000000000000000       0xa6 ./MFRC522.o
- .text._ZN7MFRC52215MIFARE_SetValueEhl
-                0x0000000000000000       0xba ./MFRC522.o
- .text._ZN7MFRC52216PCD_NTAG216_AUTHEPhS0_
-                0x0000000000000000       0xfe ./MFRC522.o
- .text._ZN7MFRC52221PCD_MIFARE_TransceiveEPhhb
-                0x0000000000000000      0x102 ./MFRC522.o
- .text._ZN7MFRC52212PICC_GetTypeEh
-                0x0000000000000000       0x6a ./MFRC522.o
- .progmem.gcc_sw_table._ZN7MFRC52212PICC_GetTypeEh
-                0x0000000000000000       0x82 ./MFRC522.o
- .text._ZN7MFRC52217PICC_DumpToSerialEPNS_3UidE
-                0x0000000000000000       0xae ./MFRC522.o
- .progmem.gcc_sw_table._ZN7MFRC52217PICC_DumpToSerialEPNS_3UidE
-                0x0000000000000000       0x12 ./MFRC522.o
- .text._ZN7MFRC52220MIFARE_SetAccessBitsEPhhhhh
-                0x0000000000000000      0x164 ./MFRC522.o
- .progmem.data._ZL30MFRC522_firmware_referenceV0_0
-                0x0000000000000000       0x40 ./MFRC522.o
- .progmem.data._ZL30MFRC522_firmware_referenceV1_0
-                0x0000000000000000       0x40 ./MFRC522.o
- .progmem.data._ZL30MFRC522_firmware_referenceV2_0
-                0x0000000000000000       0x40 ./MFRC522.o
- .progmem.data._ZL26FM17522_firmware_reference
-                0x0000000000000000       0x40 ./MFRC522.o
  .text          0x0000000000000000        0x0 ./SPIClass.o
  .bss           0x0000000000000000        0x0 ./SPIClass.o
  .text._ZN8SPIClassC2ER11SPISettings
-                0x0000000000000000       0x28 ./SPIClass.o
- .group         0x0000000000000000        0x8 ./main.o
- .group         0x0000000000000000        0x8 ./main.o
- .group         0x0000000000000000        0x8 ./main.o
+                0x0000000000000000        0x8 ./SPIClass.o
+ .text._ZN8SPIClass9stopTimerEv
+                0x0000000000000000        0xe ./SPIClass.o
+ .text._ZN8SPIClass10startTimerEv
+                0x0000000000000000        0xe ./SPIClass.o
+ .text._ZN8SPIClass14setCounterModeEv
+                0x0000000000000000       0x14 ./SPIClass.o
+ .text._ZN8SPIClass14setCounterTimeEv
+                0x0000000000000000        0xe ./SPIClass.o
+ .text._ZN8SPIClass9configSPIE11SPISettings
+                0x0000000000000000       0x1e ./SPIClass.o
+ .text._ZN8SPIClass4stopEv
+                0x0000000000000000        0x8 ./SPIClass.o
+ .text._ZN8SPIClass8transferEPvj
+                0x0000000000000000       0x2a ./SPIClass.o
  .text          0x0000000000000000        0x0 ./main.o
  .bss           0x0000000000000000        0x0 ./main.o
- .progmem.data._ZL30MFRC522_firmware_referenceV0_0
-                0x0000000000000000       0x40 ./main.o
- .progmem.data._ZL30MFRC522_firmware_referenceV1_0
-                0x0000000000000000       0x40 ./main.o
- .progmem.data._ZL30MFRC522_firmware_referenceV2_0
-                0x0000000000000000       0x40 ./main.o
- .progmem.data._ZL26FM17522_firmware_reference
-                0x0000000000000000       0x40 ./main.o
- .rodata._ZL7RST_PIN
-                0x0000000000000000        0x1 ./main.o
- .rodata._ZL6SS_PIN
-                0x0000000000000000        0x1 ./main.o
  .text          0x0000000000000000        0x0 ./wrapper_arduino.o
  .bss           0x0000000000000000        0x0 ./wrapper_arduino.o
+ .text._Z12digitalWritehh
+                0x0000000000000000       0x20 ./wrapper_arduino.o
  .text._Z7pinModehh
-                0x0000000000000000       0x76 ./wrapper_arduino.o
+                0x0000000000000000       0x34 ./wrapper_arduino.o
  .text._Z11digitalReadh
-                0x0000000000000000       0x1c ./wrapper_arduino.o
+                0x0000000000000000        0x4 ./wrapper_arduino.o
  .text._Z5delayh
-                0x0000000000000000       0xfc ./wrapper_arduino.o
+                0x0000000000000000       0x16 ./wrapper_arduino.o
  .text._Z6memcpyPhS_h
-                0x0000000000000000       0x56 ./wrapper_arduino.o
+                0x0000000000000000       0x22 ./wrapper_arduino.o
  .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
  .text.libgcc.mul
@@ -159,21 +61,6 @@ Discarded input sections
                 0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
  .text.libgcc.fixed
                 0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
- .text.libgcc.mul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
- .text.libgcc.div
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
- .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
- .text.libgcc.prologue
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
- .text.libgcc.builtins
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
- .text.libgcc.fmul
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
- .text.libgcc.fixed
-                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
  .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
  .text.libgcc.mul
@@ -233,62 +120,6 @@ Discarded input sections
                 0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_tablejump2.o)
  .text.libgcc.fixed
                 0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_tablejump2.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
- .text.avr-libc.fplib
-                0x0000000000000000        0x8 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
- .text.avr-libc.fplib
-                0x0000000000000000       0x58 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
- .text.avr-libc.fplib
-                0x0000000000000000       0x7a /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
- .text.avr-libc.fplib
-                0x0000000000000000       0x48 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
- .text.avr-libc.fplib
-                0x0000000000000000       0x44 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
- .text.avr-libc.fplib
-                0x0000000000000000        0xe /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
- .text.avr-libc.fplib
-                0x0000000000000000        0x8 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
- .text.avr-libc.fplib
-                0x0000000000000000        0x4 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
- .text.avr-libc.fplib
-                0x0000000000000000       0xd2 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
- .text.avr-libc.fplib
-                0x0000000000000000        0xc /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
- .text.avr-libc.fplib
-                0x0000000000000000        0x6 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
- .text.avr-libc.fplib
-                0x0000000000000000        0xe /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
- .text.avr-libc.fplib
-                0x0000000000000000        0xe /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
- .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
- .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
- .text.avr-libc.fplib
-                0x0000000000000000       0x22 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
 
 Memory Configuration
 
@@ -304,7 +135,6 @@ signature        0x0000000000840000 0x0000000000000400 rw !x
 Linker script and memory map
 
 LOAD /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
-LOAD ./MFRC522.o
 LOAD ./SPIClass.o
 LOAD ./main.o
 LOAD ./wrapper_arduino.o
@@ -406,7 +236,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000     0x1056
+.text           0x0000000000000000      0x2f2
  *(.vectors)
  .vectors       0x0000000000000000       0x1e /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
                 0x0000000000000000                __vectors
@@ -447,139 +277,95 @@ END GROUP
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x000000000000002a       0x16 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
-                0x000000000000002a                __do_copy_data
- .init4         0x0000000000000040       0x10 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
-                0x0000000000000040                __do_clear_bss
+ .init4         0x000000000000002a       0x10 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+                0x000000000000002a                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
  *(.init6)
- .init6         0x0000000000000050       0x14 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o)
-                0x0000000000000050                __do_global_ctors
+ .init6         0x000000000000003a       0x14 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o)
+                0x000000000000003a                __do_global_ctors
  *(.init6)
  *(.init7)
  *(.init7)
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x0000000000000064        0x4 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
+ .init9         0x000000000000004e        0x4 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
  *(.init9)
  *(.text)
- .text          0x0000000000000068        0x2 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
-                0x0000000000000068                __vector_1
-                0x0000000000000068                __vector_12
-                0x0000000000000068                __bad_interrupt
-                0x0000000000000068                __vector_6
-                0x0000000000000068                __vector_3
-                0x0000000000000068                __vector_11
-                0x0000000000000068                __vector_13
-                0x0000000000000068                __vector_7
-                0x0000000000000068                __vector_5
-                0x0000000000000068                __vector_4
-                0x0000000000000068                __vector_9
-                0x0000000000000068                __vector_2
-                0x0000000000000068                __vector_8
-                0x0000000000000068                __vector_14
-                0x0000000000000068                __vector_10
-                0x000000000000006a                . = ALIGN (0x2)
+ .text          0x0000000000000052        0x2 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
+                0x0000000000000052                __vector_1
+                0x0000000000000052                __vector_12
+                0x0000000000000052                __bad_interrupt
+                0x0000000000000052                __vector_6
+                0x0000000000000052                __vector_3
+                0x0000000000000052                __vector_11
+                0x0000000000000052                __vector_13
+                0x0000000000000052                __vector_7
+                0x0000000000000052                __vector_5
+                0x0000000000000052                __vector_4
+                0x0000000000000052                __vector_9
+                0x0000000000000052                __vector_8
+                0x0000000000000054                . = ALIGN (0x2)
  *(.text.*)
- .text._ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEh
-                0x000000000000006a       0x74 ./MFRC522.o
-                0x000000000000006a                _ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEh
- .text._ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEhPh
-                0x00000000000000de       0x9c ./MFRC522.o
-                0x00000000000000de                _ZN7MFRC52217PCD_WriteRegisterENS_12PCD_RegisterEhPh
- .text._ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterE
-                0x000000000000017a       0x7c ./MFRC522.o
-                0x000000000000017a                _ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterE
- .text._ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterEhPhh
-                0x00000000000001f6      0x132 ./MFRC522.o
-                0x00000000000001f6                _ZN7MFRC52216PCD_ReadRegisterENS_12PCD_RegisterEhPhh
- .text._ZN7MFRC52222PCD_SetRegisterBitMaskENS_12PCD_RegisterEh
-                0x0000000000000328       0x3a ./MFRC522.o
-                0x0000000000000328                _ZN7MFRC52222PCD_SetRegisterBitMaskENS_12PCD_RegisterEh
- .text._ZN7MFRC52224PCD_ClearRegisterBitMaskENS_12PCD_RegisterEh
-                0x0000000000000362       0x3e ./MFRC522.o
-                0x0000000000000362                _ZN7MFRC52224PCD_ClearRegisterBitMaskENS_12PCD_RegisterEh
- .text._ZN7MFRC52216PCD_CalculateCRCEPhhS0_
-                0x00000000000003a0       0xce ./MFRC522.o
-                0x00000000000003a0                _ZN7MFRC52216PCD_CalculateCRCEPhhS0_
- .text._ZN7MFRC52218PCD_TransceiveDataEPhhS0_S0_S0_hb
-                0x000000000000046e       0x82 ./MFRC522.o
-                0x000000000000046e                _ZN7MFRC52218PCD_TransceiveDataEPhhS0_S0_S0_hb
- .text._ZN7MFRC52223PCD_CommunicateWithPICCEhhPhhS0_S0_S0_hb
-                0x00000000000004f0      0x260 ./MFRC522.o
-                0x00000000000004f0                _ZN7MFRC52223PCD_CommunicateWithPICCEhhPhhS0_S0_S0_hb
- .text._ZN7MFRC52213PICC_RequestAEPhS0_
-                0x0000000000000750       0x32 ./MFRC522.o
-                0x0000000000000750                _ZN7MFRC52213PICC_RequestAEPhS0_
- .text._ZN7MFRC52217PICC_REQA_or_WUPAEhPhS0_
-                0x0000000000000782       0xa8 ./MFRC522.o
-                0x0000000000000782                _ZN7MFRC52217PICC_REQA_or_WUPAEhPhS0_
- .text._ZN7MFRC52211PICC_SelectEPNS_3UidEh
-                0x000000000000082a      0x4ac ./MFRC522.o
-                0x000000000000082a                _ZN7MFRC52211PICC_SelectEPNS_3UidEh
- .text._ZN7MFRC52221PICC_IsNewCardPresentEv
-                0x0000000000000cd6       0x64 ./MFRC522.o
-                0x0000000000000cd6                _ZN7MFRC52221PICC_IsNewCardPresentEv
- .text._ZN7MFRC52219PICC_ReadCardSerialEv
-                0x0000000000000d3a       0x4a ./MFRC522.o
-                0x0000000000000d3a                _ZN7MFRC52219PICC_ReadCardSerialEv
  .text._ZN8SPIClassC2Ev
-                0x0000000000000d84       0x22 ./SPIClass.o
-                0x0000000000000d84                _ZN8SPIClassC2Ev
-                0x0000000000000d84                _ZN8SPIClassC1Ev
+                0x0000000000000054        0x8 ./SPIClass.o
+                0x0000000000000054                _ZN8SPIClassC2Ev
+                0x0000000000000054                _ZN8SPIClassC1Ev
  .text._ZN8SPIClassD2Ev
-                0x0000000000000da6       0x20 ./SPIClass.o
-                0x0000000000000da6                _ZN8SPIClassD1Ev
-                0x0000000000000da6                _ZN8SPIClassD2Ev
+                0x000000000000005c        0x2 ./SPIClass.o
+                0x000000000000005c                _ZN8SPIClassD1Ev
+                0x000000000000005c                _ZN8SPIClassD2Ev
+ .text._ZN8SPIClass5beginEv
+                0x000000000000005e        0x6 ./SPIClass.o
+                0x000000000000005e                _ZN8SPIClass5beginEv
  .text._ZN8SPIClass16beginTransactionE11SPISettings
-                0x0000000000000dc6       0x3a ./SPIClass.o
-                0x0000000000000dc6                _ZN8SPIClass16beginTransactionE11SPISettings
+                0x0000000000000064       0x52 ./SPIClass.o
+                0x0000000000000064                _ZN8SPIClass16beginTransactionE11SPISettings
  .text._ZN8SPIClass8transferEh
-                0x0000000000000e00       0x2a ./SPIClass.o
-                0x0000000000000e00                _ZN8SPIClass8transferEh
+                0x00000000000000b6       0x42 ./SPIClass.o
+                0x00000000000000b6                _ZN8SPIClass8transferEh
  .text._ZN8SPIClass14endTransactionEv
-                0x0000000000000e2a       0x20 ./SPIClass.o
-                0x0000000000000e2a                _ZN8SPIClass14endTransactionEv
- .text._ZN11SPISettingsC2Ehhh
-                0x0000000000000e4a       0x2a ./main.o
-                0x0000000000000e4a                _ZN11SPISettingsC2Ehhh
-                0x0000000000000e4a                _ZN11SPISettingsC1Ehhh
- .text._ZN8SPIClass11setDataModeEh
-                0x0000000000000e74       0x26 ./main.o
-                0x0000000000000e74                _ZN8SPIClass11setDataModeEh
- .text._ZN7MFRC522C2EhhP8SPIClass11SPISettings
-                0x0000000000000e9a       0x64 ./main.o
-                0x0000000000000e9a                _ZN7MFRC522C2EhhP8SPIClass11SPISettings
-                0x0000000000000e9a                _ZN7MFRC522C1EhhP8SPIClass11SPISettings
- .text.main     0x0000000000000efe       0x1a ./main.o
-                0x0000000000000efe                main
- .text._Z41__static_initialization_and_destruction_0ii
-                0x0000000000000f18       0x74 ./main.o
- .text._GLOBAL__sub_I_testObject
-                0x0000000000000f8c       0x18 ./main.o
- .text._GLOBAL__sub_D_testObject
-                0x0000000000000fa4       0x18 ./main.o
- .text._Z12digitalWritehh
-                0x0000000000000fbc       0x76 ./wrapper_arduino.o
-                0x0000000000000fbc                _Z12digitalWritehh
- .text.libgcc   0x0000000000001032        0xc /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_tablejump2.o)
-                0x0000000000001032                __tablejump2__
-                0x000000000000103e                . = ALIGN (0x2)
+                0x00000000000000f8       0x12 ./SPIClass.o
+                0x00000000000000f8                _ZN8SPIClass14endTransactionEv
+ .text._ZN8SPIClass18manage_USI_OVF_ISREv
+                0x000000000000010a       0x3e ./SPIClass.o
+                0x000000000000010a                _ZN8SPIClass18manage_USI_OVF_ISREv
+ .text._ZN8SPIClass23manage_TIMER0_COMPA_ISREv
+                0x0000000000000148        0x4 ./SPIClass.o
+                0x0000000000000148                _ZN8SPIClass23manage_TIMER0_COMPA_ISREv
+ .text.__vector_2
+                0x000000000000014c       0x24 ./main.o
+                0x000000000000014c                __vector_2
+ .text.__vector_14
+                0x0000000000000170       0x4a ./main.o
+                0x0000000000000170                __vector_14
+ .text.__vector_10
+                0x00000000000001ba       0x4a ./main.o
+                0x00000000000001ba                __vector_10
+ .text.startup.main
+                0x0000000000000204       0xbe ./main.o
+                0x0000000000000204                main
+ .text.startup._GLOBAL__sub_I_SPI
+                0x00000000000002c2        0x6 ./main.o
+ .text.exit._GLOBAL__sub_D_SPI
+                0x00000000000002c8        0x6 ./main.o
+ .text.libgcc   0x00000000000002ce        0xc /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+                0x00000000000002ce                __tablejump2__
+                0x00000000000002da                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000000000000103e        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
-                0x000000000000103e                exit
-                0x000000000000103e                _exit
+ .fini9         0x00000000000002da        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
+                0x00000000000002da                exit
+                0x00000000000002da                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x000000000000103e       0x14 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_dtors.o)
-                0x000000000000103e                __do_global_dtors
+ .fini6         0x00000000000002da       0x14 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_dtors.o)
+                0x00000000000002da                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -592,69 +378,61 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000001052        0x4 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
+ .fini0         0x00000000000002ee        0x4 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
  *(.fini0)
-                0x0000000000001056                _etext = .
+                0x00000000000002f2                _etext = .
 
-.data           0x0000000000800060        0xa load address 0x0000000000001056
+.data           0x0000000000800060        0x0 load address 0x00000000000002f2
                 0x0000000000800060                PROVIDE (__data_start, .)
  *(.data)
  .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
- .data          0x0000000000800060        0x0 ./MFRC522.o
  .data          0x0000000000800060        0x0 ./SPIClass.o
  .data          0x0000000000800060        0x0 ./main.o
  .data          0x0000000000800060        0x0 ./wrapper_arduino.o
  .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
  .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
  .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o)
  .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_dtors.o)
  .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_tablejump2.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
- .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
  *(.data*)
  *(.rodata)
  *(.rodata*)
- .rodata._ZTV7MFRC522
-                0x0000000000800060        0xa ./MFRC522.o
-                0x0000000000800060                _ZTV7MFRC522
  *(.gnu.linkonce.d*)
-                0x000000000080006a                . = ALIGN (0x2)
-                0x000000000080006a                _edata = .
-                0x000000000080006a                PROVIDE (__data_end, .)
+                0x0000000000800060                . = ALIGN (0x2)
+                0x0000000000800060                _edata = .
+                0x0000000000800060                PROVIDE (__data_end, .)
 
-.bss            0x000000000080006a       0x17
-                0x000000000080006a                PROVIDE (__bss_start, .)
+.bss            0x0000000000800060        0xb
+                0x0000000000800060                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.testObject
-                0x000000000080006a       0x13 ./main.o
-                0x000000000080006a                testObject
- .bss.SPI       0x000000000080007d        0x4 ./main.o
-                0x000000000080007d                SPI
+ .bss.usi_byte_read
+                0x0000000000800060        0x1 ./SPIClass.o
+                0x0000000000800060                usi_byte_read
+ .bss.spi_tx_buffer
+                0x0000000000800061        0x2 ./SPIClass.o
+                0x0000000000800061                spi_tx_buffer
+ .bss.transmissionSize
+                0x0000000000800063        0x1 ./SPIClass.o
+                0x0000000000800063                transmissionSize
+ .bss.spi_tx_count
+                0x0000000000800064        0x1 ./SPIClass.o
+                0x0000000000800064                spi_tx_count
+ .bss.spiOn     0x0000000000800065        0x1 ./main.o
+                0x0000000000800065                spiOn
+ .bss.SPI       0x0000000000800066        0x5 ./main.o
+                0x0000000000800066                SPI
  *(COMMON)
-                0x0000000000800081                PROVIDE (__bss_end, .)
-                0x0000000000001056                __data_load_start = LOADADDR (.data)
-                0x0000000000001060                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x000000000080006b                PROVIDE (__bss_end, .)
+                0x00000000000002f2                __data_load_start = LOADADDR (.data)
+                0x00000000000002f2                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0000000000800081        0x0
-                0x0000000000800081                PROVIDE (__noinit_start, .)
+.noinit         0x000000000080006b        0x0
+                0x000000000080006b                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x0000000000800081                PROVIDE (__noinit_end, .)
-                0x0000000000800081                _end = .
-                0x0000000000800081                PROVIDE (__heap_start, .)
+                0x000000000080006b                PROVIDE (__noinit_end, .)
+                0x000000000080006b                _end = .
+                0x000000000080006b                PROVIDE (__heap_start, .)
 
 .eeprom         0x0000000000810000        0x0
  *(.eeprom*)
@@ -672,61 +450,29 @@ END GROUP
 .signature
  *(.signature*)
 
-.stab           0x0000000000000000     0x4ba8
+.stab           0x0000000000000000     0x1f74
  *(.stab)
  .stab          0x0000000000000000      0x6b4 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
- .stab          0x00000000000006b4     0x1ab8 ./MFRC522.o
-                                       0x3108 (size before relaxing)
- .stab          0x000000000000216c      0x630 ./SPIClass.o
-                                        0x684 (size before relaxing)
- .stab          0x000000000000279c      0x7e0 ./main.o
-                                        0x7ec (size before relaxing)
- .stab          0x0000000000002f7c      0x504 ./wrapper_arduino.o
-                                        0x744 (size before relaxing)
- .stab          0x0000000000003480       0x6c /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
+ .stab          0x00000000000006b4      0x894 ./SPIClass.o
+                                        0xaf8 (size before relaxing)
+ .stab          0x0000000000000f48      0x81c ./main.o
+                                        0x828 (size before relaxing)
+ .stab          0x0000000000001764      0x4a4 ./wrapper_arduino.o
+                                        0x654 (size before relaxing)
+ .stab          0x0000000000001c08       0x6c /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
                                          0x78 (size before relaxing)
- .stab          0x00000000000034ec       0xd8 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
-                                         0xe4 (size before relaxing)
- .stab          0x00000000000035c4       0xb4 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
+ .stab          0x0000000000001c74       0xb4 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
                                          0xc0 (size before relaxing)
- .stab          0x0000000000003678       0xd8 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o)
+ .stab          0x0000000000001d28       0xd8 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o)
                                          0xe4 (size before relaxing)
- .stab          0x0000000000003750       0xd8 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_dtors.o)
+ .stab          0x0000000000001e00       0xd8 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_dtors.o)
                                          0xe4 (size before relaxing)
- .stab          0x0000000000003828       0x9c /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_tablejump2.o)
+ .stab          0x0000000000001ed8       0x9c /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_tablejump2.o)
                                          0xa8 (size before relaxing)
- .stab          0x00000000000038c4       0x90 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
-                                         0x9c (size before relaxing)
- .stab          0x0000000000003954      0x240 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
-                                        0x24c (size before relaxing)
- .stab          0x0000000000003b94      0x318 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
-                                        0x324 (size before relaxing)
- .stab          0x0000000000003eac      0x1e0 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
-                                        0x1ec (size before relaxing)
- .stab          0x000000000000408c      0x1d4 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
-                                        0x1e0 (size before relaxing)
- .stab          0x0000000000004260       0x90 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
-                                         0x9c (size before relaxing)
- .stab          0x00000000000042f0       0x6c /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
-                                         0x78 (size before relaxing)
- .stab          0x000000000000435c       0x48 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
-                                         0x54 (size before relaxing)
- .stab          0x00000000000043a4      0x534 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
-                                        0x540 (size before relaxing)
- .stab          0x00000000000048d8       0x78 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
-                                         0x84 (size before relaxing)
- .stab          0x0000000000004950       0x54 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
-                                         0x60 (size before relaxing)
- .stab          0x00000000000049a4       0x84 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
-                                         0x90 (size before relaxing)
- .stab          0x0000000000004a28       0x84 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
-                                         0x90 (size before relaxing)
- .stab          0x0000000000004aac       0xfc /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
-                                        0x108 (size before relaxing)
 
-.stabstr        0x0000000000000000     0x30fc
+.stabstr        0x0000000000000000     0x1713
  *(.stabstr)
- .stabstr       0x0000000000000000     0x30fc /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
+ .stabstr       0x0000000000000000     0x1713 /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 
 .stab.excl
  *(.stab.excl)
@@ -742,9 +488,8 @@ END GROUP
 
 .comment        0x0000000000000000       0x20
  *(.comment)
- .comment       0x0000000000000000       0x20 ./MFRC522.o
+ .comment       0x0000000000000000       0x20 ./SPIClass.o
                                          0x21 (size before relaxing)
- .comment       0x0000000000000000       0x21 ./SPIClass.o
  .comment       0x0000000000000000       0x21 ./main.o
  .comment       0x0000000000000000       0x21 ./wrapper_arduino.o
 
@@ -816,142 +561,64 @@ LOAD linker stubs
 Cross Reference Table
 
 Symbol                                            File
-MFRC522::MFRC522(unsigned char, unsigned char, SPIClass*, SPISettings) ./main.o
-MFRC522::MFRC522(unsigned char, unsigned char, SPIClass*, SPISettings) ./main.o
-MFRC522::MIFARE_Decrement(unsigned char, long)    ./MFRC522.o
-MFRC522::MIFARE_GetValue(unsigned char, long*)    ./MFRC522.o
-MFRC522::MIFARE_Increment(unsigned char, long)    ./MFRC522.o
-MFRC522::MIFARE_Read(unsigned char, unsigned char*, unsigned char*) ./MFRC522.o
-MFRC522::MIFARE_Restore(unsigned char)            ./MFRC522.o
-MFRC522::MIFARE_SetAccessBits(unsigned char*, unsigned char, unsigned char, unsigned char, unsigned char) ./MFRC522.o
-MFRC522::MIFARE_SetValue(unsigned char, long)     ./MFRC522.o
-MFRC522::MIFARE_Transfer(unsigned char)           ./MFRC522.o
-MFRC522::MIFARE_TwoStepHelper(unsigned char, unsigned char, long) ./MFRC522.o
-MFRC522::MIFARE_Ultralight_Write(unsigned char, unsigned char*, unsigned char) ./MFRC522.o
-MFRC522::MIFARE_Write(unsigned char, unsigned char*, unsigned char) ./MFRC522.o
-MFRC522::PCD_AntennaOff()                         ./MFRC522.o
-MFRC522::PCD_AntennaOn()                          ./MFRC522.o
-MFRC522::PCD_Authenticate(unsigned char, unsigned char, MFRC522::MIFARE_Key*, MFRC522::Uid*) ./MFRC522.o
-MFRC522::PCD_CalculateCRC(unsigned char*, unsigned char, unsigned char*) ./MFRC522.o
-MFRC522::PCD_ClearRegisterBitMask(MFRC522::PCD_Register, unsigned char) ./MFRC522.o
-MFRC522::PCD_CommunicateWithPICC(unsigned char, unsigned char, unsigned char*, unsigned char, unsigned char*, unsigned char*, unsigned char*, unsigned char, bool) ./MFRC522.o
-MFRC522::PCD_GetAntennaGain()                     ./MFRC522.o
-MFRC522::PCD_Init()                               ./MFRC522.o
-MFRC522::PCD_Init(unsigned char, unsigned char)   ./MFRC522.o
-MFRC522::PCD_MIFARE_Transceive(unsigned char*, unsigned char, bool) ./MFRC522.o
-MFRC522::PCD_NTAG216_AUTH(unsigned char*, unsigned char*) ./MFRC522.o
-MFRC522::PCD_PerformSelfTest()                    ./MFRC522.o
-MFRC522::PCD_ReadRegister(MFRC522::PCD_Register)  ./MFRC522.o
-MFRC522::PCD_ReadRegister(MFRC522::PCD_Register, unsigned char, unsigned char*, unsigned char) ./MFRC522.o
-MFRC522::PCD_Reset()                              ./MFRC522.o
-MFRC522::PCD_SetAntennaGain(unsigned char)        ./MFRC522.o
-MFRC522::PCD_SetRegisterBitMask(MFRC522::PCD_Register, unsigned char) ./MFRC522.o
-MFRC522::PCD_StopCrypto1()                        ./MFRC522.o
-MFRC522::PCD_TransceiveData(unsigned char*, unsigned char, unsigned char*, unsigned char*, unsigned char*, unsigned char, bool) ./MFRC522.o
-MFRC522::PCD_WriteRegister(MFRC522::PCD_Register, unsigned char) ./MFRC522.o
-MFRC522::PCD_WriteRegister(MFRC522::PCD_Register, unsigned char, unsigned char*) ./MFRC522.o
-MFRC522::PICC_DumpDetailsToSerial(MFRC522::Uid*)  ./MFRC522.o
-MFRC522::PICC_DumpMifareClassicToSerial(MFRC522::Uid*, MFRC522::PICC_Type, MFRC522::MIFARE_Key*) ./MFRC522.o
-MFRC522::PICC_DumpMifareUltralightToSerial()      ./MFRC522.o
-MFRC522::PICC_DumpToSerial(MFRC522::Uid*)         ./MFRC522.o
-MFRC522::PICC_GetType(unsigned char)              ./MFRC522.o
-MFRC522::PICC_HaltA()                             ./MFRC522.o
-MFRC522::PICC_IsNewCardPresent()                  ./MFRC522.o
-MFRC522::PICC_REQA_or_WUPA(unsigned char, unsigned char*, unsigned char*) ./MFRC522.o
-MFRC522::PICC_ReadCardSerial()                    ./MFRC522.o
-MFRC522::PICC_RequestA(unsigned char*, unsigned char*) ./MFRC522.o
-MFRC522::PICC_Select(MFRC522::Uid*, unsigned char) ./MFRC522.o
-MFRC522::PICC_WakeupA(unsigned char*, unsigned char*) ./MFRC522.o
 SPI                                               ./main.o
 SPIClass::SPIClass()                              ./SPIClass.o
 SPIClass::SPIClass()                              ./SPIClass.o
                                                   ./main.o
 SPIClass::SPIClass(SPISettings&)                  ./SPIClass.o
 SPIClass::SPIClass(SPISettings&)                  ./SPIClass.o
+SPIClass::begin()                                 ./SPIClass.o
+                                                  ./main.o
 SPIClass::beginTransaction(SPISettings)           ./SPIClass.o
-                                                  ./MFRC522.o
+                                                  ./main.o
+SPIClass::configSPI(SPISettings)                  ./SPIClass.o
 SPIClass::endTransaction()                        ./SPIClass.o
-                                                  ./MFRC522.o
-SPIClass::setDataMode(unsigned char)              ./main.o
+                                                  ./main.o
+SPIClass::manage_TIMER0_COMPA_ISR()               ./SPIClass.o
+                                                  ./main.o
+SPIClass::manage_USI_OVF_ISR()                    ./SPIClass.o
+                                                  ./main.o
+SPIClass::setCounterMode()                        ./SPIClass.o
+SPIClass::setCounterTime()                        ./SPIClass.o
+SPIClass::startTimer()                            ./SPIClass.o
+SPIClass::stop()                                  ./SPIClass.o
+SPIClass::stopTimer()                             ./SPIClass.o
 SPIClass::transfer(unsigned char)                 ./SPIClass.o
-                                                  ./MFRC522.o
+                                                  ./main.o
+SPIClass::transfer(void*, unsigned int)           ./SPIClass.o
 SPIClass::~SPIClass()                             ./SPIClass.o
                                                   ./main.o
 SPIClass::~SPIClass()                             ./SPIClass.o
-SPISettings::SPISettings(unsigned char, unsigned char, unsigned char) ./main.o
-SPISettings::SPISettings(unsigned char, unsigned char, unsigned char) ./main.o
 __bad_interrupt                                   /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 __bss_end                                         /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
 __bss_start                                       /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
-__cmpsf2                                          /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
 __ctors_end                                       /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o)
 __ctors_start                                     /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o)
-__data_end                                        /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
-__data_load_start                                 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
-__data_start                                      /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
 __do_clear_bss                                    /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_clear_bss.o)
                                                   ./main.o
-__do_copy_data                                    /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_copy_data.o)
-                                                  ./main.o
-                                                  ./MFRC522.o
+                                                  ./SPIClass.o
 __do_global_ctors                                 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o)
                                                   ./main.o
 __do_global_dtors                                 /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_dtors.o)
                                                   ./main.o
 __dtors_end                                       /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_dtors.o)
 __dtors_start                                     /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_dtors.o)
-__eqsf2                                           /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
-__fixunssfsi                                      /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
-                                                  ./wrapper_arduino.o
-__floatsisf                                       /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
-__floatunsisf                                     /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(floatsisf.o)
-                                                  ./wrapper_arduino.o
-__fp_cmp                                          /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_cmp.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
-__fp_inf                                          /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_inf.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
-__fp_nan                                          /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_nan.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
-__fp_pscA                                         /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscA.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
-__fp_pscB                                         /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_pscB.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
-__fp_round                                        /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_round.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
-__fp_split3                                       /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
-__fp_splitA                                       /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_split3.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
-__fp_szero                                        /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
-__fp_zero                                         /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fp_zero.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(fixunssfsi.o)
-__gesf2                                           /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
-__gtsf2                                           /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(gesf2.o)
-                                                  ./wrapper_arduino.o
 __heap_end                                        /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 __init                                            /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
-__lesf2                                           /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
-__ltsf2                                           /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
-                                                  ./wrapper_arduino.o
-__mulsf3                                          /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
-                                                  ./wrapper_arduino.o
-__mulsf3_pse                                      /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
-__mulsf3x                                         /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3x.o)
-                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(mulsf3.o)
-__nesf2                                           /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/libm.a(cmpsf2.o)
 __stack                                           /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 __tablejump2__                                    /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_tablejump2.o)
                                                   /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_dtors.o)
                                                   /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_ctors.o)
 __vector_1                                        /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
-__vector_10                                       /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
+__vector_10                                       ./main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 __vector_11                                       /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 __vector_12                                       /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 __vector_13                                       /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
-__vector_14                                       /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
-__vector_2                                        /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
+__vector_14                                       ./main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
+__vector_2                                        ./main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 __vector_3                                        /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 __vector_4                                        /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 __vector_5                                        /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
@@ -963,19 +630,16 @@ __vector_default                                  /usr/lib/gcc/avr/4.9.2/../../.
 __vectors                                         /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 _exit                                             /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
 delay(unsigned char)                              ./wrapper_arduino.o
-                                                  ./MFRC522.o
 digitalRead(unsigned char)                        ./wrapper_arduino.o
-                                                  ./MFRC522.o
 digitalWrite(unsigned char, unsigned char)        ./wrapper_arduino.o
-                                                  ./MFRC522.o
 exit                                              /usr/lib/gcc/avr/4.9.2/avr25/tiny-stack/libgcc.a(_exit.o)
                                                   /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 main                                              ./main.o
                                                   /usr/lib/gcc/avr/4.9.2/../../../../avr/lib/avr25/tiny-stack/crttn25.o
 memcpy(unsigned char*, unsigned char*, unsigned char) ./wrapper_arduino.o
-                                                  ./MFRC522.o
 pinMode(unsigned char, unsigned char)             ./wrapper_arduino.o
-                                                  ./MFRC522.o
-testObject                                        ./main.o
-vtable for MFRC522                                ./MFRC522.o
-                                                  ./main.o
+spiOn                                             ./main.o
+spi_tx_buffer                                     ./SPIClass.o
+spi_tx_count                                      ./SPIClass.o
+transmissionSize                                  ./SPIClass.o
+usi_byte_read                                     ./SPIClass.o
