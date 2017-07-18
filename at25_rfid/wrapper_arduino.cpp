@@ -10,9 +10,9 @@
 
 void digitalWrite(uint8_t pin, uint8_t val){
 	if (val == 1)
-		PORTB |= _BV(val);
+		PORTB |= _BV(pin);
 	else
-		PORTB &= ~_BV(val);
+		PORTB &= ~_BV(pin);
 };
 
 void pinMode(uint8_t pin, uint8_t dir){

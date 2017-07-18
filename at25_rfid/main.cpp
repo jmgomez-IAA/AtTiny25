@@ -31,6 +31,7 @@ uint8_t spiOn;
 /** @brief Interrupt vector for pin change on PB0
  *	Solo se acepta una pulsacion, despues deshabilitamos.
  */
+/*
 ISR (PCINT0_vect){
 	uint8_t pinbVal = PINB;
 	if (!(pinbVal & 1<<PINB4))   // Trigger if DI is Low
@@ -40,6 +41,7 @@ ISR (PCINT0_vect){
 		spiOn = 1;
 	}
 }
+*/
 
 extern "C" void USI_OVF_vect (void)  __attribute__ ((signal));
 void USI_OVF_vect (void){
@@ -54,8 +56,6 @@ void TIMER0_COMPA_vect (void){
 };
 
 
-MFRC522 mfrc522(SS_PIN, RST_PIN, &SPI, SPISettings(8, SPISettings::MSBFIRST, SPISettings::SPI_MODE0));
-
 int main(){
 
 	//Prepare and configure interrupts and outputs.
@@ -66,8 +66,8 @@ int main(){
 	PORTB |= _BV(PORTB0);  //Pull-ups on PB0.
 
 	// Configure Interrupts to detect pin-change on PB0.
-	GIMSK |= _BV(PCIE);               // Enable pin change interrupts
-	PCMSK |= _BV(PCINT4);             // Enable pin change on pin PB4
+	//GIMSK |= _BV(PCIE);               // Enable pin change interrupts
+	//PCMSK |= _BV(PCINT4);             // Enable pin change on pin PB4
 
 
 	SPI.begin();
@@ -75,7 +75,7 @@ int main(){
 
 	sei();
 
-
+	MFRC522 mfrc522(SS_PIN, RST_PIN, &SPI, SPISettings(8, SPISettings::MSBFIRST, SPISettings::SPI_MODE0));
 
 
 	//void setSPIConfig();
@@ -90,7 +90,9 @@ int main(){
 
 	while(1){
 		//if (spiOn == 1){
+
 		_delay_ms(100);
+		/*
 			SPI.beginTransaction(SPISettings(8, SPISettings::MSBFIRST, SPISettings::SPI_MODE0));
 			PORTB &= ~_BV(PINB3);	//SS, slave select 0.
 			SPI.transfer(0x02);
@@ -115,7 +117,7 @@ int main(){
 			_delay_ms(10);
 		}
 		while( readVal & (1<<4));
-
+*/
 	}
 
 	SPI.stop();
