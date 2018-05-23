@@ -1,0 +1,75 @@
+COMPILE		= avr-c++
+OBJCOPY 	= avr-objcopy
+OBJDUMP 	= avr-objdump
+SIZE		= avr-size
+NM 		= avr-nm
+AVRDUDE 	= avrdude
+REMOVE 		= rm -f
+
+#CPU Specific flags.
+MCU 		= attiny85
+F_CPU 		= 1000000
+
+#Compiler flags.
+CSTANDARD	= -std=c++11
+CPPDEFS		= -DF_CPU=$(F_CPU)UL -mmcu=$(MCU)
+CFLAGS		= -Wall -Wextra -pedantic -DF_CPU=$(F_CPU)UL  -mmcu=$(MCU) -fsigned-char -O2 -fno-exceptions
+CPPFLAGS	= -std=c++11 -fno-rtti -fstrict-enums -fno-use-cxa-atexit -fno-use-cxa-get-exception-ptr -fno-nonansi-builtins -fno-threadsafe-statics -fno-enforce-eh-specs
+CINCLUDES	= -Isrc -Isrc/mcal/avr -Isrc/util/STL -Isrc/util/STL_C++11_Compatibility -Isrc/util/STL_C++17_Compatibility
+
+SOURCES = src/mcal/mcal.cpp src/mcal/mcal_gcc_cxx_completion.cpp src/mcal/avr/mcal_cpu.cpp src/mcal/avr/mcal_led.cpp src/mcal/avr/mcal_gpt.cpp src/mcal/avr/mcal_irq.cpp src/mcal/avr/mcal_led.cpp src/sys/start/sys_start.cpp target/micros/avr/startup/crt0.cpp target/micros/avr/startup/crt0_init_ram.cpp target/micros/avr/startup/crt1.cpp target/micros/avr/startup/int_vect.cpp 
+OBJECTS = bin/mcal.o bin/mcal_gcc_cxx_completion.o bin/mcal_cpu.o bin/mcal_gpt.o bin/mcal_irq.o bin/mcal_led.o bin/sys_start.o bin/crt0.o bin/crt0_init_ram.o bin/crt1.o bin/int_vect.o
+
+all : chapter02_03.elf
+
+
+bin/mcal.o	: src/mcal/mcal.cpp
+	echo "Compile  : mcal.cpp to bin/mcal.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/mcal/mcal.cpp -o bin/mcal.o
+
+bin/mcal_gcc_cxx_completion.o :  src/mcal/mcal_gcc_cxx_completion.cpp
+	echo "Compile  : mcal_gcc_cxx_completion.cpp to bin/mcal_gcc_cxx_completion.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/mcal/mcal_gcc_cxx_completion.cpp -o bin/mcal_gcc_cxx_completion.o
+
+bin/mcal_cpu.o : src/mcal/avr/mcal_cpu.cpp
+	echo "Compile  : mcal_cpu.cpp to bin/mcal_cpu.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/mcal/avr/mcal_cpu.cpp -o bin/mcal_cpu.o
+
+bin/mcal_gpt.o : src/mcal/avr/mcal_gpt.cpp
+	echo "Compile  : mcal_gpt.cpp to bin/mcal_gpt.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/mcal/avr/mcal_gpt.cpp -o bin/mcal_gpt.o
+
+bin/mcal_irq.o : src/mcal/avr/mcal_irq.cpp
+	echo "Compile  : mcal_irq.cpp to bin/mcal_irq.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/mcal/avr/mcal_irq.cpp -o bin/mcal_irq.o
+
+bin/mcal_led.o : src/mcal/avr/mcal_led.cpp
+	echo "Compile  : mcal_led.cpp to bin/mcal_led.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/mcal/avr/mcal_led.cpp -o bin/mcal_led.o
+
+bin/sys_start.o : src/sys/start/sys_start.cpp
+	echo "Compile  : sys_start.cpp to bin/sys_start.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c src/sys/start/sys_start.cpp -o bin/sys_start.o
+
+bin/crt0.o : target/micros/avr/startup/crt0.cpp
+	echo "Compile  : crt0.cpp to bin/crt0.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c target/micros/avr/startup/crt0.cpp -o bin/crt0.o
+
+bin/crt0_init_ram.o : target/micros/avr/startup/crt0_init_ram.cpp
+	echo "Compile  : crt0_init_ram.cpp to bin/crt0_init_ram.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c target/micros/avr/startup/crt0_init_ram.cpp -o bin/crt0_init_ram.o
+
+bin/crt1.o : target/micros/avr/startup/crt1.cpp
+	echo "Compile  : crt1.cpp to bin/crt1.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c target/micros/avr/startup/crt1.cpp -o bin/crt1.o
+
+bin/int_vect.o : target/micros/avr/startup/int_vect.cpp
+	echo "Compile  : int_vect.cpp to bin/int_vect.o"
+	$(COMPILE) -x c++ $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -c target/micros/avr/startup/int_vect.cpp -o bin/int_vect.o
+
+chapter02_03.elf : $(OBJECTS)
+	echo "Link     : objects to bin/chapter02_03.elf"
+	$(COMPILE) -x none -mrelax -nostartfiles $(CFLAGS) $(CPPFLAGS) $(CINCLUDES) -Wl,--gc-sections -Wl,-Ttarget/micros/avr/make/avr.ld,-Map,bin/chapter02_03.map $(OBJECTS) -o bin/chapter02_03.elf
+
+clear : 
+	rm bin/*
